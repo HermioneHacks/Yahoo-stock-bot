@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
-# Load preprocessed stock data
+# Load preprocessed stock data :)
 df = pd.read_csv("data/processed_stock_data.csv", index_col="Date", parse_dates=True)
 
 # Moving Averages
